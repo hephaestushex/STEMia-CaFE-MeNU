@@ -1,0 +1,64 @@
+*, *::before, *::after {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	color: #F5CB5C;
+	background-color: #119abd;
+}
+
+.day-one {
+	padding: 2rem;
+}
+
+.card-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 1rem;
+	align-items: flex-start;
+}
+
+.card {
+	display: inline-block;
+	background-color: #006b6e;
+	padding: 1rem;
+	border: none;
+	border-radius: .25rem;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
+	height: fit-content;
+	transition: 500ms ease-in-out;
+}
+
+.card-header {
+	font-weight: bold;
+	font-size: 1.5rem;
+	margin-bottom: .5rem;
+}
+
+.card-body {
+	font-size: .9rem;
+}
+
+.card-footer {
+	margin-top: 1rem;
+}
+
+.more-info {
+	color: white;
+	background-color: #5754aa;
+	border: none;
+	padding: .5em .75em;
+	border-radius: .25rem;
+	cursor: pointer;
+	transition: 200ms;
+}
+
+.more-info:hover {
+	background-color: #00A9D4;
+}
+
+.info {	
+	padding-top: 1rem;
+	display: block;
+    transition: opacity 300ms ease-in-out;
+}
