@@ -13,7 +13,7 @@ body {
 
 .card-grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(300px, 631px));
 	gap: 1rem;
 	align-items: flex-start;
 }
@@ -36,7 +36,7 @@ body {
 }
 
 .card-body {
-	font-size: .9rem;
+	font-size: 1rem;
 }
 
 .card-footer {
@@ -61,4 +61,26 @@ body {
 	padding-top: 1rem;
 	display: block;
     transition: opacity 300ms ease-in-out;
+}
+
+li {
+	margin-bottom: .25rem;
+}
+
+a {
+	font-weight: bolder;
+	color: #11005a;
+}
+
+body::-webkit-scrollbar {
+    width: .5rem;
+}
+
+body::-webkit-scrollbar-thumb {
+	border-radius: .25rem;
+    background-color: #006b6e;
+}
+
+img {
+	width: 80vmin;
 }
