@@ -3,12 +3,14 @@
 }
 
 body {
+	padding: 0;
+	margin: 0;
 	color: #F5CB5C;
 	background-color: #119abd;
 }
 
-.day-one {
-	padding: 2rem;
+.day-one, .day-two {
+	padding: 2.5rem;
 }
 
 .card-grid {
@@ -74,6 +76,7 @@ a {
 
 body::-webkit-scrollbar {
     width: .5rem;
+    background-color: #182727;
 }
 
 body::-webkit-scrollbar-thumb {
